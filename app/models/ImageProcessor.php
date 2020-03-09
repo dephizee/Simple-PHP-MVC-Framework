@@ -2,12 +2,11 @@
 	
 	class ImageProcessor{
 
-		public static function upload_image($files, $file_loc){
+		public static function upload_image($files, &$file_loc){
 			$r = rand(0, 1000);
 			if(!file_exists($file_loc)){
 				mkdir($file_loc);
 			}
-			// $t = "./../photo_folder/".$_SESSION['user_name'];
 			$thumbnail_file_loc = $file_loc.'thumbnail/';
 			if(!file_exists($thumbnail_file_loc)){
 				mkdir($thumbnail_file_loc);

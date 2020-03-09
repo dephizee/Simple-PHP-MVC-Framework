@@ -1,7 +1,7 @@
 Options -Indexes
 RewriteEngine On
 
-RewriteBase /barta
+RewriteBase /mvc%20framework
 
 #RewriteCond %{REQUEST_METHOD} POST
 

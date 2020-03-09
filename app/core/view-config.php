@@ -1,3 +1,3 @@
 <?php 
-$baseUrl = '/barta/';
+$baseUrl = '';
  ?>
