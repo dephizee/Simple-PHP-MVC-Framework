@@ -1,3 +1,3 @@
 <?php 
-$baseUrl = '';
+$baseUrl = '/mvc%20framework/';
  ?>

@@ -11,8 +11,12 @@
         <div class="col-10 col-offset-2">
           <i class="icono-display" ></i>
           <h1>Welcome Home page</h1>
+
           <h3>
             Helper Command for creating Controllers and Views.<br>
+          </h3>
+          <h3>
+            <a href="_managespace">GUI alt</a> is also available
           </h3>
           <h5>
             > hfw new (1) (2)
